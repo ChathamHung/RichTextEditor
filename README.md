@@ -1,34 +1,62 @@
 # Rich Text Editor
 
-A simple WYSIWYG rich text editor built with HTML, CSS, and JavaScript.
-
-## Features
-
-- Text formatting (bold, italic, underline, strikethrough)
-- Text alignment (left, center, right, justify)
-- Lists (ordered and unordered)
-- Indentation controls
-- Font family and size selection
-- Text and background color picker
-- Insert links and images
-- Undo/redo functionality
-- Keyboard shortcuts (Ctrl+B, Ctrl+I, Ctrl+U)
-- HTML output display
-- Responsive design
+A modern, feature-rich text editor built with plain HTML, CSS, and JavaScript.
 
 ## Usage
 
-1. Simply open `index.html` in your web browser
-2. Use the toolbar buttons to format your text
-3. The HTML output is displayed in real-time below the editor
+### 1. Demo
+- Just go to https://chathamhung.github.io/RichTextEditor/
 
-## Implementation Details
+### 2. Clone
+1. Clone or download this repository
+2. Open `index.html` in your web browser
+3. Start editing!
 
-- Uses the `document.execCommand()` API for rich text editing
-- Custom styling with CSS for a modern look
-- Pure JavaScript with no external dependencies (except Font Awesome icons)
-- Responsive design works on desktop and mobile devices
+## Features
 
-## Notes
+- **Comprehensive Text Formatting:** Bold, italic, underline, strikethrough, fonts, and more
+- **Paragraph Styling:** Alignment, indentation, lists, and block formats
+- **Insert Elements:** Links, images, tables, horizontal rules, emojis, date, and time
+- **Color Controls:** Text color and background color with reset capability
+- **File Operations:** Create, open, save, and print documents
+- **UI Features:**
+  - Ribbon-style interface with tabs
+  - Dark mode support
+  - Context menu (right-click)
+  - Fullscreen mode
+  - HTML output view
+  - Resizable panels
+- **Smart Features:**
+  - Format detection on text selection
+  - Keyboard shortcuts
+  - Undo/redo with state tracking
+  - Font size increment/decrement controls
 
-This is a simple implementation of a rich text editor. For production use, you might want to consider more robust solutions or libraries. 
+## Keyboard Shortcuts
+
+- **Ctrl+B:** Bold
+- **Ctrl+I:** Italic
+- **Ctrl+U:** Underline
+- **Ctrl+N:** New document
+- **Ctrl+O:** Open document
+- **Ctrl+S:** Save document
+- **Ctrl+Shift+S:** Save As
+- **Ctrl+P:** Print document
+
+## Browser Compatibility
+
+Tested and working in:
+- Chrome
+- Firefox
+- Edge
+- Safari
+
+## Project Structure
+
+- `index.html` - Main HTML structure
+- `styles.css` - Styling and theming
+- `script.js` - Editor functionality and event handling
+
+## License
+
+Is using MIT License
